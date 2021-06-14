@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Veronica - The Web Scraper</title>
+</head>
+<body onload="loadingpage()">
+    <div id="loader" class="loadingpage">
+        <h1>   
+            <span class="move" > L </span>
+            <span class="move" > <i class="fas fa-circle-notch"></i> </span>ADING
+        </h1>
+    </div>
+    <div id="main" style="display: none;">
+    <!--NAVBAR COMPONENT-->
+    <div class="navbar">
+        <div class="inner">
+            <h2>Veronica</h2> 
+            <div id="nav_links" class="navLinks">
+                <a class="active" href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Donate</a>
+                <a href="#">Contribute</a>
+                <a href="#">How Veronica Works</a>
+            </div>
+            <div class="hiddenbutts">
+            <i onclick="show()" id="ham"   class="fas fa-bars"></i>
+            <i onclick="hide()" id="cross" class="fas fa-times"></i>
+            </div>
+        </div>
+    </div>
+    <!--NAVBAR COMPONENT-->
+    <!--MAIN-->
+    <div id="bgone" class="bg1">
+        <div class="head">
+            <h1>The Online Web Scraper</h1>        
+            <hr style="width: 70px;">
+            <p>Making web data extraction easy and accessible for everyone.</p>
+        </div>
+        <div id="r1" class="row">
+                <img id="first" src="https://miro.medium.com/max/3960/0*HICLyAdNSIyT0ODU.jpg" alt="">
+            <div class="content">
+                <h1>What is Web Scraping?</h1>
+               <p> Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. The web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler. It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.Web scraping a web page involves fetching it and extracting from it.</p>
+               <div class="twoButtons">
+                   <a href="#"> Start Now</a>
+                   <a href="https://en.wikipedia.org/wiki/Web_scraping" target="_blank"> Learn More</a>
+               </div>
+            </div>
+        </div>        
+        <div id="r2" class="row">
+            <div class="content">
+                <h1 style="margin-top: 25px;">Why Choose Veronica ?</h1>
+            <p style="line-height: 28px;">   Web data extraction tool with an easy point-and-click interface for modern web
+                Free and easy to use web data extraction tool for everyone.
+                With a simple point-and-click interface, the ability to extract thousands of records from a website takes only a few minutes of scraper setup.
+                Web Scraper utilizes a modular structure that is made of selectors, which instruct the scraper on how to traverse the target site and what data to extract. Thanks to this structure, data mining from modern and dynamic websites such as Amazon, Tripadvisor, eBay, as well as from lesser-known sites is effortless.
+                Data extraction is run on your browser and doesn’t require anything to be installed on your computer. You don't need Python, PHP, or JavaScript coding experience to start scraping. Additionally, it is possible to completely automate data extraction in Web Scraper Cloud.
+            </p>
+            </div>
+            <img id="second" src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?size=626&ext=jpg" alt="">
+        </div>
+        <div id="r3" class="row" style="margin-top: 40px;">
+            <img id="third" style="width: 50%;margin-right: 7%;" src="https://i.pinimg.com/736x/4e/1f/eb/4e1feb9123d1322fe7b8585d26f4a737.jpg" alt="">
+            <div class="content">
+                <h1 style="margin-top: 25px;">Easy to Use: <span id="block"> No Coding Required! </span></h1>
+            <p style="line-height: 40px;font-size: 18px;">
+                Need to extract data quickly?
+            </p>
+            <p style="line-height: 40px;font-size: 18px;">
+                Open a website of your choice and start clicking on the data you want to extract. It's that easy! Scrape your data with no code at all.
+            </p>
+            <p style="line-height: 40px;font-size: 18px;">    
+            Our machine learning relationship engine does the magic for you. We screen the page and understand the hierarchy of elements. You'll see the data pulled in seconds.
+            </p>
+            </div>
+        <div>
+
+</div>
+</div>
+</div>
+    <!--MAIN-->
+<!-- AVERAGE FOOTER-->
+<div class="footer">
+<p>Made With Sheer Professionalism By <a style="color: aqua;" href="https://github.com/rishav-jha-mech/" target="_blank"> <span style="color: chartreuse;font-weight: 600;">Rishav Jha</span> {CSS King 👑} </a></p>
+</div>
+<!-- AVERAGE FOOTER-->
+</div>
+</body>
+<script src="app.js"></script>
+</html>
+
+<!---->
