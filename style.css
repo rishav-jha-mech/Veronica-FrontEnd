@@ -9,7 +9,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 /*CUSTOM SCROLLBAR CSS FROM W3 SCHOOLS*/
 /* width */
 ::-webkit-scrollbar {
@@ -262,15 +261,15 @@ a{
         padding: 1.5% 3% 0 3% ;
     }
     #r1 img{
-        height: 400px;
+        height: 300px;
     }
     
     #r2 img{
-        height: 400px;
+        height: 300px;
     }
     
     #r3 img{
-        height: 400px;
+        height: 300px;
     }
     ::-webkit-scrollbar{
         display: none;
