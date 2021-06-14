@@ -9,39 +9,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*loading page css*/
-.loadingpage{
-    background-color: #6b0f1a;
-    background-image: linear-gradient(15deg, #6b0f1a 0%, #b91372 74%);
-    overflow-x: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-}
-.loadingpage h1{
-    font-size: 60px;
-    color: white;
-    font-weight: 700;
-    letter-spacing: 5px;
-    text-shadow: 5px 5px 5px black;
-}
-.fa-circle-notch {
-    animation: rotate 0.5s linear infinite;
-    text-shadow: none;
-}
-@keyframes rotate{
-    0%{
-        color: aqua;
-        transform: rotate(0);
-    }
-    100%{
-        color: chartreuse;
-        transform: rotate(360deg);
-    }
-}
-/*loading page css*/
 
 /*CUSTOM SCROLLBAR CSS FROM W3 SCHOOLS*/
 /* width */
