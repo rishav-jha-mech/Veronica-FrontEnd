@@ -274,6 +274,9 @@ a{
     ::-webkit-scrollbar{
         display: none;
     }
+    #r1 h1,#r2 h1,#r3 h1{
+        font-size: 24px;
+    }
 }
 .hiddenbutts{
     display: none;
