@@ -35,6 +35,34 @@
 
     background: url(https://i.pinimg.com/originals/fe/c6/6d/fec66d649cb60a673fc9bee52380c3b1.gif);
 */
+@media(max-width:425px){ 
+  .main {
+    min-height: 100vh;
+    background-position: center;
+    background: url(https://i.pinimg.com/originals/fe/c6/6d/fec66d649cb60a673fc9bee52380c3b1.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.300); 
+  }
+  .make h1,.result h1{
+    color: white !important;
+  }
+  .make h2, .result h2 {
+    color: white !important;
+  } 
+  .form-check-label {
+    color: white;
+    font-weight: 800;
+  }
+  .result textarea{
+    background: rgba(255, 255, 255, 0.716) !important;
+  }
+}
 a {
   text-decoration: none;
   color: thistle;
