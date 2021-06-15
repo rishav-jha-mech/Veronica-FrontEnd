@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veronica</title>
+</head>
+<link rel="stylesheet" href="veronica.css">
+<body>
+    <form action="" method="GET">
+    <div class="main">
+            <div class="make">
+        <h1>Enter Your <span class="block2">URL Here</span></h1> 
+            <div class="forum">
+                <input name="url" type="url" placeholder="https://something.com" required>
+                <button type="submit"> SCRAP </button>  
+            </div>
+            <h2>Select which element you want to scrap <span id="block1"> (choose only one) </span> </h2>
+    <div class="table">
+        <div class="row">
+            <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                <input class="form-check-input" name="h1" type="checkbox" id="flexSwitchCheckChecked">
+                <label class="form-check-label" for="flexSwitchCheckChecked">h1</label>
+            </div>
+        
+            <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                <input class="form-check-input" name="h2" type="checkbox" id="flexSwitchCheckChecked" >
+                <label class="form-check-label" for="flexSwitchCheckChecked">h2</label>
+            </div>
+            <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                <input class="form-check-input" name="h3" type="checkbox" id="flexSwitchCheckChecked" >
+                <label class="form-check-label" for="flexSwitchCheckChecked">h3</label>
+            </div>
+            <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                <input class="form-check-input" name="h4" type="checkbox" id="flexSwitchCheckChecked" >
+                <label class="form-check-label" for="flexSwitchCheckChecked">h4</label>
+            </div>
+            <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                <input class="form-check-input" name="h5" type="checkbox" id="flexSwitchCheckChecked" >
+                <label class="form-check-label" for="flexSwitchCheckChecked">h5</label>
+            </div>
+            <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                <input class="form-check-input" name="h6" type="checkbox" id="flexSwitchCheckChecked" >
+                <label class="form-check-label" for="flexSwitchCheckChecked">h6</label>
+            </div>
+            <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                <input class="form-check-input" name="p" type="checkbox" id="flexSwitchCheckChecked" >
+                <label class="form-check-label" for="flexSwitchCheckChecked">p </label>
+            </div>
+        </div>
+        <div class="row">
+                <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                    <input class="form-check-input" name="a" type="checkbox" id="flexSwitchCheckChecked" >
+                    <label class="form-check-label" for="flexSwitchCheckChecked">a </label>
+                </div>
+                <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                    <input class="form-check-input" name="span" type="checkbox" id="flexSwitchCheckChecked" >
+                    <label class="form-check-label" for="flexSwitchCheckChecked">span</label>
+                </div>
+                <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                    <input class="form-check-input" name="img" type="checkbox" id="flexSwitchCheckChecked" >
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Image</label>
+                </div>
+                <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                    <input class="form-check-input" name="video" type="checkbox" id="flexSwitchCheckChecked" >
+                    <label class="form-check-label" for="flexSwitchCheckChecked">video </label>
+                </div>
+                <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                    <input class="form-check-input" name="div" type="checkbox" id="flexSwitchCheckChecked" >
+                    <label class="form-check-label" for="flexSwitchCheckChecked">div</label>
+                </div>
+                <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                    <input class="form-check-input" name="section" type="checkbox" id="flexSwitchCheckChecked" >
+                    <label class="form-check-label" for="flexSwitchCheckChecked">section</label>
+                </div>
+                <div style="display: flex;align-items: center;" class="form-check form-switch form-switch-lg">
+                    <input class="form-check-input" name="comment" type="checkbox" id="flexSwitchCheckChecked" >
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Comment</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>    
+    <div class="result">
+        <h1>Scrapped Material</h1>
+        <h2>   based on the options you selected here are the results </h2>
+        <div class="alignright"> <button> COPY</button> </div>
+        <textarea cols="30" rows="20"></textarea>
+    </div>
+</div>
+</body>
+</html>
