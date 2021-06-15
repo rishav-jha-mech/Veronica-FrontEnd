@@ -335,7 +335,9 @@ a {
 }
 @media(max-width:500px){
   .make h1,.result h1{
-    font-size: 30px;
+    font-size: 35px;
+    text-shadow: none;
+    font-weight: 700;
   }
   .make h2, .result h2 {
     font-size: 20px;
