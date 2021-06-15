@@ -337,7 +337,8 @@ a {
   .make h1,.result h1{
     font-size: 35px;
     text-shadow: none;
-    font-weight: 700;
+    font-weight: 800;
+    text-align: center;
   }
   .make h2, .result h2 {
     font-size: 20px;
